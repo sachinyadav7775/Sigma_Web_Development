@@ -1,2 +1,2 @@
 # Sigma_Web_Development
-HTML_CSS_JAVASCRIPT
+FSD
