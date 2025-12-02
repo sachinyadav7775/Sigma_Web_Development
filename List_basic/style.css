@@ -1,0 +1,24 @@
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+} 
+
+html,body {
+    background-color: orchid;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+dt {
+    color: ghostwhite;
+}
+
+dd {
+    color: blue;
+}
