@@ -1,0 +1,36 @@
+* {
+    margin: 0.00005%;
+    padding: 0.05%;
+}
+
+body {
+    background-color : aqua;
+}
+
+p {
+    color : red;
+
+}
+
+data {
+    color : blue;
+}
+
+pr {
+    color : royalblue;
+}
+
+pa {
+    color : mediumvioletred;
+}
+
+a {
+   color : fuchsia;
+}
+
+h3 {
+    width: 35%;
+    text-align : center;
+    background-color : greenyellow;
+    color : salmon;
+}
