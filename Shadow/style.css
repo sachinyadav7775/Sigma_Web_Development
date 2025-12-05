@@ -1,0 +1,14 @@
+.box {
+    border: 2px solid black;
+    padding: 34px;
+    box-shadow: 0px 1px 10px 3px #888888;
+    background: #b1ffe2;
+    font-size: large;
+    text-shadow: 0px 7px 2px #d231d2;
+}
+
+.text-element {
+    text-shadow: 1px 8px 2px #23e6f4;
+    font-size: large;
+    font-weight: 600;
+}
