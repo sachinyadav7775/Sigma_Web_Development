@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color: #52a252;
+    --seccolor: #b821b8;
+    --defap:45px;
+    --defop:2px solid black;
+    --gap:10px;
+}
+
+ul {
+    display: flex;
+    gap: var(--gap);
+}
+
+ul li {
+    list-style: none;
+    padding: var(--defap);
+    border: var(--defop);
+}
+
+ul li:first-child {
+    background-color: var(--seccolor);
+}
+
+.nav {
+    background-color: var(--color, blue);
+}
+
+.box {
+    background-color: var(--seccolor);
+    padding: var(--defap);
+}
