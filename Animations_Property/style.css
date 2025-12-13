@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 70vh;
+    background-color: aquamarine;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: brown;
+    /* animation-name: sachinkaAnimation;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:cubic-bezier(0, 0, 0.91, 3.33); */
+    /* animation-direction: alternate-reverse; */
+    /* animation-play-state: running; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sachinkaAnimation  3s linear(0.1, 0.9, 0.2, 1) 1s infinite, sky  3s linear(0.1, 0.9, 0.2, 1) 1s infinite;
+}
+
+@keyframes sky {
+    from {
+        background-color: navy;
+    }
+    to {
+        background-color: rgb(224, 89, 168);
+    }
+}
+
+/* @keyframes sachinkaAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        /* transform: translateX(1500px); */
+        /* transform: rotate(360deg) ; 
+    }
+} */
+
+@keyframes sachinkaAnimation {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(200px, 600px) rotate(360deg);
+  }
+}
