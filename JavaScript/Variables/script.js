@@ -4,6 +4,11 @@ let b = 5;
 let c = "sachin";
 console.log(a + b + 4)
 console.log(typeof a, typeof b, typeof c);
+{
+    let a = 33;
+    console.log(a);
+}
+console.log(a);
 
 let x = "sachin";
 let y = 22;
