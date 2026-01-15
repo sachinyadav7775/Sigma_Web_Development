@@ -4,7 +4,7 @@ let age = 17;
 
 if(age >= 18) {
     console.log("You can drive");
-} else if(age > 1 && age <=12 ) {
+} else if(age > 1 && age <=12) {
     console.log("You are small child not drive");
 } else {
     console.log("You can not drive");
@@ -43,3 +43,17 @@ if(Marks > 90 && Marks <= 100) {
 } else {
     console.log("Fail")
 }  
+
+let cuet_marks = 604;
+
+if (cuet_marks >= 651 && cuet_marks <= 1200) {
+    console.log("Your marks are valid for all branches of Allahabad University, Kanpur University, Delhi University and BHU");
+} else if (cuet_marks >= 601 && cuet_marks <= 1100) {
+    console.log("Your marks are valid for all branches of Kanpur University, Delhi University and BHU");
+} else if (cuet_marks >= 501 && cuet_marks <= 1000) {
+    console.log("Your marks are valid for all branches of Delhi University and BHU");
+} else if (cuet_marks >= 401 && cuet_marks <= 750) {
+    console.log("Your marks are valid for all branches of BHU");
+} else {
+    console.log("Your marks are not accepted by all universities");
+}
