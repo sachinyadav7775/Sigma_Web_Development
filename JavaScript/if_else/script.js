@@ -26,7 +26,7 @@ let Marks = 38;
 
 if(Marks > 90 && Marks <= 100) {
     console.log("A1");
-} else if(Marks > 80  && Marks <= 90) {
+} else if(Marks > 80 && Marks <= 90) {
     console.log("A2");
 } else if(Marks > 70 && Marks <= 80) {
     console.log("B1")
