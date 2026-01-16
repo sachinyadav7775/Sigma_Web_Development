@@ -2,13 +2,28 @@ console.log("Hey i am if else")
 
 let age = 17;
 
-if(age >= 18) {
+let grace = 4;
+age += grace;
+console.log(age)
+console.log(age + grace);
+console.log(age - grace);
+console.log(age * grace);
+console.log(age / grace);
+console.log(age % grace);
+console.log(age ** grace);
+
+if (age >= 18) {
     console.log("You can drive");
-} else if(age > 1 && age <=12) {
+} else if (age > 1 && age <=12) {
     console.log("You are small child not drive");
 } else {
     console.log("You can not drive");
 }
+
+a = 18;
+b = 12;
+let c = a < b ? (a - b) : (b - a);
+console.log(c)
 
 let x = 10;
 
