@@ -1,9 +1,8 @@
 console.log("Hey i am if else")
 
-let age = 17;
+let age = 16;
 
-let grace = 4;
-age += grace;
+let grace = 3;
 console.log(age)
 console.log(age + grace);
 console.log(age - grace);
