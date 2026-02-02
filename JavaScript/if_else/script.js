@@ -85,3 +85,171 @@ if (stud_marks >= 597.5) {
 } else {
     console.log("Passed(No Rank)")
 }
+
+// let names = ["Ram", "Shyam", "Madhav", "Krishna", "Balram", "Mahabharat", "ArjunDev"]
+
+// const answer = []
+
+// for await (const element of names) {
+//     if(element.length < 4) {
+//         answer.push("Low Power")
+//     }else if(element.length < 7) {
+//         answer.push("Medium Power")
+//     }else if(element.length < 10) {
+//         answer.push("High Power")
+//     }else {
+//         answer.push("Ultimate Power")
+//     }
+// }
+
+// console.log(answer)
+
+// let names = ["Ram", "Shyam", "Madhav", "Krishna", "Balram", "Mahabharat", "ArjunDev"];
+
+// const answer = [];
+
+// for (const element of names) {
+//     let power = "";
+
+//     if (element.length < 4) {
+//         power = "Low Power";
+//     } else if (element.length < 7) {
+//         power = "Medium Power";
+//     } else if (element.length < 10) {
+//         power = "High Power";
+//     } else {
+//         power = "Ultimate Power";
+//     }
+
+//     answer.push({
+//     name: element,
+//     power: power
+//     });
+// }
+
+// console.log(answer);
+
+// let student = ["sujeet", "anurag", "avanish", "ankit", "shivam", "ram", "shayam", "amit"]
+
+// const ans = []
+
+// for (const element of student) {
+//     let marks = ""
+
+//     if(element.length < 35) {
+//         marks = "Fail";
+//     }else if(element.length < 60) {
+//         marks = "Pass";
+//     }else if(element.length < 80) {
+//         marks = "Good";
+//     }else {
+//         marks = "Excellent";
+//     }
+
+//     ans.push({
+//         name: element,
+//         marks: marks
+//     });
+// }
+
+// console.log(ans)
+
+// let number = 8
+
+// if(number % 2 == 0) {
+//     console.log("Even")
+// }else{
+//     console.log("odd")
+// }
+
+// let marks = 90
+
+// if(marks >= 90) {
+//     console.log("Grade A")
+// }else if(marks >= 60) {
+//     console.log("Grade B")
+// }else if(marks >= 40) {
+//     console.log("Grade C")
+// }else{
+//     console.log("Fail")
+// }
+
+// let age = 18 
+
+// if(age >= 18) {
+//     console.log("Eligible for vote")
+// }else {
+//     console.log("Not Eligible for vote")
+// }
+
+// let Num = -9876
+
+// if(Num >= 1) {
+//     console.log("Positive")
+// }else if(Num < 0) {
+//     console.log("Negative")
+// }else {
+//     console.log("Zero")
+// }
+
+// let year = 325
+
+// if(year % 400 == 0) {
+//     console.log("Leap Year")
+// }else if(year % 100 == 0) {
+//     console.log("Not Leap Year")
+// }else if(year % 4 == 0) {
+//     console.log("Leap Year")
+// }else {
+//     console.log("Not Leap Year")
+// }
+
+// let a = 44, b = 22, c = 8
+
+// if(a > b && a > c) {
+//     console.log("a is largest")
+// }else if(b > a && b > c) {
+//     console.log("b is largest")
+// }else {
+//     console.log("c is largest")
+// }
+
+// let a = 80, b = 22, c = 80
+
+// if(a > b && a > c) {
+//     console.log("a is largest")
+// }else if(b > a && b > c) {
+//     console.log("b is largest")
+// }else if(c > a && c > b) {
+//     console.log("c is largest")
+// }else {
+//     console.log("Two or more numbers are equal and largest")
+// }
+
+// let Age = 55
+
+// if(Age < 0) {
+//     console.log("Invalid Age");
+// } else if(Age <= 12) {
+//     console.log("Child");
+// } else if(Age <= 19) {
+//     console.log("Teenager");
+// } else if(Age <= 59) {
+//     console.log("Adult");
+// } else {
+//     console.log("Senior Citizen");
+// }
+
+let units = 410
+
+if(units < 0) {
+    console.log("Invalid Unit")
+}else if(units <= 100) {
+    console.log(units * 5)
+}else if(units <= 200) {
+    console.log(units * 7)
+}else if(units <= 300) {
+    console.log(units * 10)
+}else {
+    console.log(units * 15)
+}
