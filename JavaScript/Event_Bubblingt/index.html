@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Bubblingt</title>
+        <style>
+            .container{
+                padding: 40px;
+                background: #b06767;
+                border: 2px solid black;
+                cursor: pointer;
+            }
+
+            .childcontainer {
+                padding: 40px;
+                background: #d8d852;
+                border: 2px solid black;
+                cursor: pointer;
+            }
+
+            .child {
+                padding: 40px;
+                background: #aa197c;
+                border: 2px solid black;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="childcontainer">
+                <div class="child">
+                    I am a child
+                </div>
+            </div>
+        </div>
+        <script>
+            document.querySelector(".child").addEventListener("click", (e) =>{
+                e.stopPropagation()
+                alert("child was Clickd ")
+            })
+            document.querySelector(".childcontainer").addEventListener("click", (e) =>{
+                // e.stopPropagation()
+                alert("childcontainer was Click ")
+            })
+            document.querySelector(".container").addEventListener("click", (e) =>{
+                // e.stopPropagation()
+                alert("container was Click ")
+            })
+            
+            function getRandomColor() {
+                let r = Math.floor(Math.random() * 256)
+                let g = Math.floor(Math.random() * 256)
+                let b = Math.floor(Math.random() * 256)
+                return `rgb(${r}, ${g}, ${b})`
+            }
+            // setInterval (() => {
+            //     document.querySelector(".childcontainer").style.background = getRandomColor();
+            // }, 1000);
+
+            // let a = setInterval (() => {
+            //     document.querySelector(".childcontainer").style.background = getRandomColor();
+            // }, 1000);
+
+            // console.log(a)
+
+            let a = settimeout (() => {
+                document.querySelector(".childcontainer").style.background = getRandomColor();
+            }, 5000);
+
+            console.log(a)
+        </script>
+    </body>
+
+</html>
