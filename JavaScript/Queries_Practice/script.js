@@ -106,7 +106,6 @@ while(i < matrix.length){
         } else {
             console.log("Odd Number: ", num)
             sumOdd += num
-            
         } 
         j++
     } 
@@ -126,7 +125,6 @@ let min = Matrix[0][0]
 
 for(let i=0; i<Matrix.length; i++) {
     for(let j=0; j<Matrix[i].length; j++) {
-
         let current = Matrix[i][j]
 
         if (current > max) {
