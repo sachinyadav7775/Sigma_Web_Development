@@ -25,3 +25,6 @@ console.log(b.slice(3))
 let c = "Shivam bhai "
 console.log(c.replace("bhai", "bhau"))
 console.log(c.concat(a, " Sahil", " Avanish"))
+
+let stri = "I Love Javascript"
+console.log(stri.length)
