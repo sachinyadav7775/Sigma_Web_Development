@@ -69,14 +69,14 @@
 //     i++
 // }
 
-let matrix = [
-    [2, 5, 8],
-    [3, 6, 9],
-    [1, 4, 7]
-];
+// let matrix = [
+//     [2, 5, 8],
+//     [3, 6, 9],
+//     [1, 4, 7]
+// ];
 
-let sumEven = 0
-let sumOdd = 0
+// let sumEven = 0
+// let sumOdd = 0
 
 // for(i=0; i<matrix.length; i++) {
 //     for(j=0; j<matrix[i].length; j++) {
@@ -93,26 +93,26 @@ let sumOdd = 0
 //     }
 // }
 
-let i = 0;
+// let i = 0;
 
-while(i < matrix.length){
-    let j = 0;
-    while(j < matrix[i].length){
-        let num = matrix[i][j]
+// while(i < matrix.length){
+//     let j = 0;
+//     while(j < matrix[i].length){
+//         let num = matrix[i][j]
 
-        if(matrix[i][j] % 2 == 0) {
-            console.log("Even Number: ", num)
-            sumEven += num
-        } else {
-            console.log("Odd Number: ", num)
-            sumOdd += num
-        } 
-        j++
-    } 
-    i++
-}
-console.log("Even Number Sum:", sumEven)
-console.log("Odd Number Sum:", sumOdd)
+//         if(matrix[i][j] % 2 == 0) {
+//             console.log("Even Number: ", num)
+//             sumEven += num
+//         } else {
+//             console.log("Odd Number: ", num)
+//             sumOdd += num
+//         } 
+//         j++
+//     } 
+//     i++
+// }
+// console.log("Even Number Sum:", sumEven)
+// console.log("Odd Number Sum:", sumOdd)
 
 let Matrix = [
     [10, 5, 8],
