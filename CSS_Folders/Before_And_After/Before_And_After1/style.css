@@ -39,7 +39,6 @@
 
 .button::before {
     content: "";
-    background: linear-gradient(45deg, #f453f4, #da1010, #bc154a, #ffdd1b, #540dee,#50ec0e);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -52,6 +51,7 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     animation: rotate 15s linear infinite;
+    background: linear-gradient(45deg, #f453f4, #da1010, #bc154a, #ffdd1b, #540dee,#50ec0e);
 }
 
 @keyframes rotate {
