@@ -21,7 +21,7 @@ function App() {
         className='text-white text-2xl mb-5 bg-zinc-500 p-4 rounded'
       >
         This is a counter 
-        <span className='text-green-400 bg-black p-1 rounded'>{count}</span> 
+        <span className='text-green-400 bg-black p-1 ml-2 rounded'>{count}</span> 
       </div>
 
       <button 
