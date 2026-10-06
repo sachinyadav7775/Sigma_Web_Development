@@ -19,8 +19,8 @@ function App() {
         <span className='text-green-400 bg-black p-1 rounded ml-2'>{count}</span> 
       </div>
 
-      <div className='flex gap-5'>
-
+      <div className='flex gap-5 border border-zinc-500 py-2 px-4 rounded bg-zinc-800'>
+        
         <button 
           onClick={() => dispatch(increment())}
           className='border border-zinc-600 bg-green-500 text-xl font-medium active:scale-95 hover:bg-green-600 shadow-lg shadow-zinc-700/70 text-white px-4 py-2 rounded cursor-pointer'
