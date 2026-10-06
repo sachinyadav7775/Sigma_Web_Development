@@ -20,6 +20,10 @@ export const counterSlice = createSlice({
       state.value *= 5
     },
 
+    divibe: (state) => {
+      state.value /= 2
+    },
+
     incrementByAmount: (state, action) => {
       state.value += action.payload
     },
@@ -27,6 +31,7 @@ export const counterSlice = createSlice({
 })
 
 export const {
+  divibe,
   increment,
   decrement,
   multiplay,
