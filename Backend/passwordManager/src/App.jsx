@@ -1,11 +1,13 @@
-import React from 'react'
+import Manager from './components/Manager'
+import Navbar from './components/Navbar'
 
 const App = () => {
 
   return (
 
     <div>
-      App
+      <Navbar/>
+      <Manager/>
     </div>
 
   )
