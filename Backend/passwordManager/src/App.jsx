@@ -1,5 +1,5 @@
-import Manager from './components/Manager'
 import Navbar from './components/Navbar'
+import Manager from './components/Manager'
 
 const App = () => {
 
