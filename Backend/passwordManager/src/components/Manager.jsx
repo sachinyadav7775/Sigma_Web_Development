@@ -21,10 +21,11 @@ const Manager = () => {
                     <input type="text" />
                 </div>
             </div>
+            
         </>
 
     );
- 
+      
 };
  
 export default Manager;
