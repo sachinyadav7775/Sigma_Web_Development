@@ -8,7 +8,7 @@ const App = () => {
     handleSubmit,
     watch,
     formState: { errors , isSubmitting },
-  } = useForm();
+  } = useForm();  
 
   const delay = (d) => {
     return new Promise((resolve, reject) => {
@@ -19,10 +19,10 @@ const App = () => {
   }
 
   const onSubmit = async (data) => {
-    await delay(2)
+    await delay(2)  
     console.log(data)
   } 
-
+  
   return (
 
     <div className='w-full h-screen bg-gray-700 text-white flex items-center justify-center'>
