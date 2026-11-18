@@ -52,7 +52,7 @@ const App = () => {
         <input 
           type="password" 
           placeholder='password' 
-          {...register("password")}
+          {...register("password")} 
           className='border border-zinc-600 bg-zinc-500 text-white py-2 px-4 rounded mb-4'
         />
 
