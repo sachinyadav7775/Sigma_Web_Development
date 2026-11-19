@@ -60,7 +60,7 @@ const App = () => {
 
         <input 
           type="submit" 
-          value="Submit" 
+          value="Submit"     
           disabled={ isSubmitting }
           className='border border-zinc-600 py-2 px-4 cursor-pointer rounded bg-zinc-500'
         />
